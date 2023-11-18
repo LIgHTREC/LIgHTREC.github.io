@@ -1,165 +1,20 @@
-<!DOCTYPE html>
-<html lang="en"> 
+<html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=2.0">
-    <title>Resume</title>
-    <link rel="stylesheet" href="css/styles.css">
-    <style>
-        body {
-            background-color: rgb(255,192,203);
-            padding: 40px;
-            display: flex;
-            justify-content: center;
-            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        }
-        
-        p {
-            font-size: 16px;
-            color: rgb(107, 107, 107);
-        }
-        
-        .p1 {
-            font-size: 17px;
-            color: rgb(0, 0, 0);
-            font-weight: bold;
-        }
-        
-        .wrapper {
-            background-color: rgb(255, 255, 255);
-            display: flex;
-            flex-direction: row-reverse;
-            width: 100%;
-            max-width: 1200px;
-            border-radius: 10px; 
-            overflow: hidden; 
-        }
-        
-        .main {
-            padding-left: 40px;
-            flex-grow: 1;
-            padding-left: 50px;
-        }
-        
-        aside {
-            width: 300px;
-            padding-left: 40px;
-            background-color: rgb(245, 245, 220);
-            border-top-left-radius: 10px; 
-            border-bottom-left-radius: 10px; 
-        }
-        
-        aside img {
-            margin-top: 20px;
-            border-radius: 5px;
-            width: 200px;
-            height: auto;
-            margin-right: 30px;
-            border-radius: 2px solid black;
-        }
-        
-        li {
-            font-size: 16px;
-            font-weight: normal;
-        }
-        
-        a {
-            color: black;
-        }
-        
-        h3 {
-            margin-bottom: -7px;
-            border-bottom: 2px solid rgb(57, 95, 66); 
-            padding-bottom: 5px; 
-        }
-        
-    </style>
-
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+	<link rel="stylesheet" href="css/font-awesome.css" type="text/css">
+	<title>CSS3 menu</title>
 </head>
 <body>
-    <!-- Wrapper -->
-    <div class="wrapper">
-        <!-- Main content -->
-        <div class="main">
-            <!-- My info -->
-            <div>
-                <h3>Front-End Developer</h3>
-                <h1>Anna Dubchak</h1>
-                <p>My goal is to achieve success in the field of IT. I dream of creating amazing game worlds and community-friendly websites. For this, I want to use my acquired learning and knowledge to achieve my goals. I am enthusiastic about learning new things and developing already acquired qualities.</p>
-                <div>
-                    <h3>My projects</h3>
-                    <ol>
-                        <li><a href="https://socialfort.tilda.ws/" target="_blank">https://socialfort.tilda.ws/</li>
-<li><a href="https://exampleproject2.com" target="_blank">https://exampleproject2.com</a> -------------[ coming soon ]</li>
-<li><a href="https://exampleproject3.com" target="_blank">https://exampleproject3.com</a> -------------------[ coming soon ]</li>
-                    </ol>
-                </div>
-            </div>
-            <div>
-                <h3>Work Experience</h3>
-                <div>
-                    <h4>Software Developer</h4>
-                    <p>December 2021 - July 2022 | Ukraine</p>
-                    <ul>
-                        <li>Creating applications for displaying web pages.</li>
-                        <li>Creation of mobile applications and games on such resources as Unity, Unreal, Godot.</li>
-                        <li>Creation of net code for network games.</li>
-                    </ul>
-                </div>
-                <div>
-                <h4>Skills in working with a team</h4>
-                <p>June 2020 - November 2022 | Ukraine</p>
-                <ul>
-                    <li>Good communication skills with colleagues.</li>
-                    <li>Ability to motivate colleagues and subordinates.</li>
-                    <li>EAbility to solve internal problems and follow order in the team.</li>
-                </ul>
-                </div>
-                <div>
-                <h4>Front-End</h4>
-                <p>July 2021 - April 2023 | Ukraine</p>
-                <ul>
-                    <li>Ability to use hosting and designers to create web pages.</li>
-                    <li>Creation of web page interface design.</li>
-                    <li>Creation of large projects for firms and companies.</li>
-                </ul>
-                </div>
-            </div>
-            <div>
-                <h3>Education</h3>
-                <h4>Volyn College of the National University of Food Technologies (now)</h4>
-                <h4>Software Engineering</h4>
-                <p>September 2022 - up to now | Ukraine</p>
-            </div>
-            <p style="text-align: right; margin-right: 20px; color:black;">by Anna Dubchak</p>
-        </div>
-        <!-- Sidebar -->
-        <aside>
-            <img src="https://zefirka.net/wp-content/uploads/2021/02/kotik-pisko-kotoryj-poxozh-na-kota-v-sapogax-iz-shreka-1.jpg" alt="Photo">
-            <div>
-                <h3>Contacts</h3>
-                <p class="p1">C: <a href="tel:+380667005011"> +38 066 700 50 11</a></p>
-                <p class="p1">E: <a href="mailto:dubchak.anna@gmail.com"> dubchak.anna@gmail.com</a></p>
-            </div>
-            <div>
-                <h3>Tech Skills</h3>
-                <ul>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>С++</li>
-                    <li>C#</li>
-                </ul>
-            </div>
-            <div>
-                <h3>Soft Skills</h3>
-                <ul>
-                <li>Collaboration</li>
-                <li>Flexibility</li>
-                <li>Interpersonal skills</li>
-                <li>Organizational skills</li>
-                </ul>
-            </div>
-        </aside>
-    </div>
+<header>
+	<div class="dws-menu">
+		<ul class="dws-ul">
+			<li class="dws-li"><a href="#"><i class="fa fa-home" aria-hidden="true"></i>Главная</a></li>
+			<li class="dws-li"><a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Магазин</a></li>
+			<li class="dws-li"><a href="#"><i class="fa fa-server" aria-hidden="true"></i>Услуги</a></li>
+			<li class="dws-li"><a href="#"><i class="fa fa-folder-open" aria-hidden="true"></i>Портфолио</a></li>
+			<li class="dws-li"><a href="#"><i class="fa fa-newspaper-o" aria-hidden="true"></i>Новости</a></li>
+		</ul>
+	</div>
+</header>
 </body>
-</html>
